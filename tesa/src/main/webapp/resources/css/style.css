@@ -17,9 +17,8 @@
 }
 
 /*SUB VISUAL*/
-.join {background:url(../images/bus_sub1.jpg) no-repeat 50% 50%}
-.sub-bus {background:url(../images/bus_sub1.jpg) no-repeat 50% 50%}
-
+.join {background:url(../images/bus_sub2.jpg) no-repeat 50% 50%}
+.sub-bus {background:url(../images/bus_sub2.jpg) no-repeat 50% 50%}
 
 
 
@@ -40,7 +39,12 @@
   transform: translateY(-50%);
 }
 
+.wrap-form-reservation {display:none}
+.on {display:block}
 
+.sub-menu nav ul{display:flex;flex-direction: row;color:#333333}
+.sub-menu nav ul a {color:#333333}
+.sub-menu nav ul::after{content:'';clear:both;display:block}
 .join-mail::after{content:'';clear:both;display:block}
 .join-tel::after{content:'';clear:both;display:block}
 .join-addr::after{content:'';clear:both;display:block}

@@ -3833,6 +3833,9 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .bo16 {
 	border: 1px solid #dbdbdb;
 }
+.bo17 {
+	border-right: 1px solid #d9d9d9;
+}
 
 /*[  ]
 -----------------------------------------------------------
